@@ -16,6 +16,8 @@ OmniWalletの製品チームが公開する、署名付きWebhookのローカル
 
 ## このリポジトリの使いどころ
 
+APIの通貨コードを選ぶ前に、無料の[対応通貨・ネットワーク検索](https://omniwallet.ewin888.com/ja/coins/?utm_source=github&utm_medium=organic_content&utm_campaign=asset_lookup_20261020#lookup)も利用できます。`USDT` を検索し、ネットワークを選んで、表示されたトークンコントラクトを照合してください。アカウント、APIキー、ウォレット接続は不要です。OmniWalletの対応一覧を検索するもので、残高や送金状況は確認できません。
+
 自社サイトやアプリをOmniWalletに連携する前に、Webhook実験で署名検証と再送の扱いを確認できます。Postmanサンプルでは、テスト環境のAPIと通貨・ネットワーク・トークンコントラクトの取得方法を確認できます。ローカル実験にアカウントは不要です。実際の加盟店APIの確認には、独立したテスト環境のアカウントとキーを使います。
 
 コードを書かずに決済リンクを作成したい場合は、[加盟店向けの導入ガイド（英語）](https://omniwallet.ewin888.com/en/guides/accept-usdt-payments/)から始めてください。

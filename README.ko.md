@@ -16,6 +16,8 @@ OmniWallet 제품 팀이 공개하는 웹훅 서명 검증 실험과 읽기 전�
 
 ## 이 저장소는 언제 사용하나요?
 
+API 통화 코드를 선택하기 전에 무료 [지원 코인 및 네트워크 검색 도구](https://omniwallet.ewin888.com/ko/coins/?utm_source=github&utm_medium=organic_content&utm_campaign=asset_lookup_20261020#lookup)를 사용할 수 있습니다. `USDT`를 검색하고 네트워크를 선택한 뒤 표시된 토큰 컨트랙트를 비교하세요. 계정, API 키 또는 지갑 연결은 필요하지 않습니다. OmniWallet 지원 목록을 검색하며 잔액이나 송금 내역을 조회하지는 않습니다.
+
 웹사이트나 앱을 OmniWallet에 연동하기 전에 웹훅 실험으로 서명 검증과 재전송 처리를 이해할 수 있습니다. Postman 예제에서는 테스트 API와 통화, 네트워크, 토큰 계약 정보를 조회하는 방법을 살펴볼 수 있습니다. 로컬 실험에는 계정이 필요하지 않습니다. 실제 판매자 API 응답을 확인하려면 별도의 테스트 환경 계정과 키를 사용하세요.
 
 코드 없이 결제 링크를 만들려면 [판매자 시작 가이드(영어)](https://omniwallet.ewin888.com/en/guides/accept-usdt-payments/)를 참고하세요.

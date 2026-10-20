@@ -16,6 +16,8 @@
 
 ## 這個專案可以幫你做什麼？
 
+選擇 API 幣種代碼前，可以先用免費的[幣種與網路查詢工具](https://omniwallet.ewin888.com/zh-tw/coins/?utm_source=github&utm_medium=organic_content&utm_campaign=asset_lookup_20261020#lookup)：搜尋 `USDT`、選擇網路，再比對顯示的代幣合約。不需要帳號、API 金鑰或連接錢包；工具查詢的是 OmniWallet 支援清單，不查詢餘額或轉帳。
+
 準備把網站或應用程式接上 OmniWallet 時，可先用 webhook 實驗理解付款通知的驗證與重送，再用 Postman 範例查看測試 API、幣種、網路與代幣合約資料。離線實驗不需要 OmniWallet 帳號；查詢實際商戶 API 時，才需要獨立測試環境的帳號與金鑰。
 
 如果你只想建立免寫程式的付款連結，可先看[商戶入門教學（英文）](https://omniwallet.ewin888.com/en/guides/accept-usdt-payments/)。

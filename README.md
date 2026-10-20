@@ -20,6 +20,8 @@ Typical uses include:
 
 ## How this repository helps you integrate
 
+Before choosing an API currency code, try the free [supported coin and network lookup](https://omniwallet.ewin888.com/coins/?utm_source=github&utm_medium=organic_content&utm_campaign=asset_lookup_20261020#lookup). Search `USDT`, select a network, and compare the displayed token contract. No account, API key or wallet connection is needed. This searches OmniWallet's supported list; it does not check balances or transfers.
+
 If you want to connect your store or application to OmniWallet, start here to understand two parts of that integration:
 
 | Example | What you can learn |
