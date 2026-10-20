@@ -1,0 +1,62 @@
+{
+  "info": {
+    "name": "OmniWallet sandbox discovery (read-only)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Official OmniWallet read-only sandbox examples. All requests use GET. Status needs no key; currency requests require your own sandbox API key in your local Postman Vault. No real credential values or customer responses are included. No payments, payouts or account mutations. Reference: https://omniwallet.ewin888.com/docs/api/ . The public sandbox status endpoint was checked; authenticated requests have not been executed with merchant credentials."
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://omniwallet-dev.ewin888.com/api",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "API status",
+      "request": {
+        "method": "GET",
+        "auth": {
+          "type": "noauth"
+        },
+        "header": [],
+        "url": "{{base_url}}/v1/status",
+        "description": "Read-only availability check; no credentials."
+      }
+    },
+    {
+      "name": "Available currency codes",
+      "request": {
+        "method": "GET",
+        "auth": {
+          "type": "noauth"
+        },
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{vault:omniwallet_sandbox_api_key}}"
+          }
+        ],
+        "url": "{{base_url}}/v1/currencies",
+        "description": "Requires a locally stored sandbox API key. Lists platform currency codes; this does not establish merchant eligibility."
+      }
+    },
+    {
+      "name": "Currency network and contract details",
+      "request": {
+        "method": "GET",
+        "auth": {
+          "type": "noauth"
+        },
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{vault:omniwallet_sandbox_api_key}}"
+          }
+        ],
+        "url": "{{base_url}}/v1/full-currencies",
+        "description": "Requires a locally stored sandbox API key. Confirm chain and contract; do not infer support from token name alone."
+      }
+    }
+  ]
+}

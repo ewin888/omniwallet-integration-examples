@@ -1,0 +1,20 @@
+{
+  "name": "omniwallet-integration-examples",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Runnable offline payment-webhook checks and read-only OmniWallet sandbox requests.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "lab": "node examples/ipn-raw-body-lab.mjs",
+    "check:collection": "node scripts/check-collection.mjs",
+    "test": "node examples/ipn-raw-body-lab.mjs && node scripts/check-collection.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ewin888/omniwallet-integration-examples.git"
+  }
+}
