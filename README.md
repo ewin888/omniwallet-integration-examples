@@ -1,8 +1,33 @@
 # OmniWallet integration examples
 
-Reproduce payment-webhook signature mistakes locally, then inspect read-only sandbox API requests. Published by the OmniWallet product team.
+Accept crypto payments with OmniWallet. Use these official examples to understand signed payment notifications and explore the sandbox API before integrating.
 
 [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+
+## What is OmniWallet?
+
+**OmniWallet is a crypto payment platform for merchants and developers.** It helps businesses accept supported cryptocurrencies such as USDT and USDC through payment links, hosted checkout, a payment API and POS.
+
+**One address. Multiple chains.** Use the same receiving address across supported EVM chains, with incoming transfers identified by their actual network. Coverage depends on the supported network and asset.
+
+Typical uses include:
+
+- **Freelancers and agencies:** send a payment link for an agreed project without building a checkout website.
+- **Online shops and SaaS teams:** integrate crypto checkout and receive signed payment-status notifications in your own application.
+- **Physical stores:** use POS to present a payment QR code and check the payment in the merchant console.
+
+[Explore OmniWallet](https://omniwallet.ewin888.com/?utm_source=github&utm_medium=organic_content&utm_campaign=integration_examples) · [Fees](https://omniwallet.ewin888.com/pricing/) · [Supported assets and networks](https://omniwallet.ewin888.com/coins/) · [API documentation](https://omniwallet.ewin888.com/docs/api/)
+
+## How this repository helps you integrate
+
+If you want to connect your store or application to OmniWallet, start here to understand two parts of that integration:
+
+| Example | What you can learn |
+| --- | --- |
+| Offline webhook lab | Why changing JSON can break a payment notification's signature, and why retries need separate handling. |
+| Read-only Postman collection | How to check sandbox availability and inspect supported currencies, networks and token contracts. |
+
+The offline lab works without an OmniWallet account. To explore actual merchant API responses, create a separate sandbox account and use your own sandbox key. For a no-code payment link, begin with the [merchant setup guide](https://omniwallet.ewin888.com/en/guides/accept-usdt-payments/).
 
 ## Try the offline lab
 

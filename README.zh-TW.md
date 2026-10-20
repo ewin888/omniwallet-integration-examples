@@ -2,6 +2,24 @@
 
 由 OmniWallet 產品團隊發布，提供可在本機重現的 webhook 署名驗證實驗與唯讀 API 範例。[完整英文說明](README.md)
 
+## OmniWallet 是什麼？
+
+**OmniWallet 是提供給商戶與開發者的加密貨幣收款平台。** 透過付款連結、託管收款頁、API 或 POS，商家可以接受 USDT、USDC 等支援的加密貨幣付款。
+
+**一個地址同時支援多條鏈。** 支援的 EVM 相容鏈使用同一個收款地址，系統辨識實際入金網路；適用範圍依支援的網路與幣種而定。
+
+- **接案者與工作室：** 直接傳送專案付款連結，不必先開發結帳網站。
+- **電商與 SaaS 團隊：** 串接收款 API、託管結帳頁與署名付款通知，將付款資訊接回自己的系統。
+- **實體商店：** 使用 POS 顯示付款 QR Code，並在商戶後台確認付款。
+
+[認識 OmniWallet](https://omniwallet.ewin888.com/zh-tw/?utm_source=github&utm_medium=organic_content&utm_campaign=integration_examples) · [費率](https://omniwallet.ewin888.com/zh-tw/pricing/) · [支援幣種與網路](https://omniwallet.ewin888.com/zh-tw/coins/) · [API 文件](https://omniwallet.ewin888.com/docs/api/)
+
+## 這個專案可以幫你做什麼？
+
+準備把網站或應用程式接上 OmniWallet 時，可先用 webhook 實驗理解付款通知的驗證與重送，再用 Postman 範例查看測試 API、幣種、網路與代幣合約資料。離線實驗不需要 OmniWallet 帳號；查詢實際商戶 API 時，才需要獨立測試環境的帳號與金鑰。
+
+如果你只想建立免寫程式的付款連結，可先看[商戶入門教學（英文）](https://omniwallet.ewin888.com/en/guides/accept-usdt-payments/)。
+
 ## 本機執行
 
 使用 Node.js 22.18 以上版本；本次驗證使用 26.1.0。不需註冊、API 金鑰、安裝套件或真實付款。

@@ -2,6 +2,24 @@
 
 OmniWallet 제품 팀이 공개하는 웹훅 서명 검증 실험과 읽기 전용 API 예제입니다. [자세한 영어 설명](README.md)
 
+## OmniWallet이란?
+
+**OmniWallet은 판매자와 개발자를 위한 암호화폐 결제 플랫폼입니다.** 결제 링크, 호스팅 결제 페이지, API 또는 POS를 통해 USDT와 USDC 등 지원하는 암호화폐로 대금을 받을 수 있습니다.
+
+**하나의 입금 주소로 여러 체인을 지원합니다.** 지원되는 EVM 호환 체인에서 동일한 입금 주소를 사용하며, 실제 입금 네트워크를 식별합니다. 지원 범위는 네트워크와 자산에 따라 다릅니다.
+
+- **프리랜서와 제작 업체:** 별도 결제 사이트를 개발하지 않고 프로젝트 결제 링크를 보낼 수 있습니다.
+- **온라인 쇼핑몰과 SaaS 팀:** 결제 API나 호스팅 결제 페이지를 연동하고, 자체 시스템에서 서명된 결제 상태 알림을 받을 수 있습니다.
+- **오프라인 매장:** POS로 결제 QR 코드를 표시하고 판매자 관리 화면에서 결제를 확인할 수 있습니다.
+
+[OmniWallet 제품 소개](https://omniwallet.ewin888.com/ko/?utm_source=github&utm_medium=organic_content&utm_campaign=integration_examples) · [수수료](https://omniwallet.ewin888.com/ko/pricing/) · [지원 자산과 네트워크](https://omniwallet.ewin888.com/ko/coins/) · [API 문서](https://omniwallet.ewin888.com/docs/api/)
+
+## 이 저장소는 언제 사용하나요?
+
+웹사이트나 앱을 OmniWallet에 연동하기 전에 웹훅 실험으로 서명 검증과 재전송 처리를 이해할 수 있습니다. Postman 예제에서는 테스트 API와 통화, 네트워크, 토큰 계약 정보를 조회하는 방법을 살펴볼 수 있습니다. 로컬 실험에는 계정이 필요하지 않습니다. 실제 판매자 API 응답을 확인하려면 별도의 테스트 환경 계정과 키를 사용하세요.
+
+코드 없이 결제 링크를 만들려면 [판매자 시작 가이드(영어)](https://omniwallet.ewin888.com/en/guides/accept-usdt-payments/)를 참고하세요.
+
 ## 로컬에서 실행하기
 
 Node.js 22.18 이상을 사용하세요. 실행 확인에는 26.1.0을 사용했습니다. 계정, API 키, 추가 패키지 또는 실제 결제가 필요하지 않습니다.
