@@ -1,5 +1,9 @@
 # OmniWallet 連携サンプル
 
+[![対応する複数の EVM ネットワークで同じ受取アドレスを使用。概念図です。](assets/one-address-multiple-chains.png)](https://omniwallet.ewin888.com/ja/coins/?lang=ja&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
+
+[対応する通貨とネットワークを確認](https://omniwallet.ewin888.com/ja/coins/?lang=ja&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
+
 OmniWalletの製品チームが公開する、署名付きWebhookのローカル実験と読み取り専用APIリクエストです。[詳しい英語版](README.md)
 
 ## OmniWalletとは？

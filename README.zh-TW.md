@@ -1,5 +1,9 @@
 # OmniWallet 串接範例
 
+[![一個地址同時支援多條 EVM 鏈；僅限支援網路與幣種，圖片為概念示意。](assets/one-address-multiple-chains.png)](https://omniwallet.ewin888.com/zh-tw/coins/?lang=zh-tw&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
+
+[查詢支援的幣種與網路](https://omniwallet.ewin888.com/zh-tw/coins/?lang=zh-tw&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
+
 由 OmniWallet 產品團隊發布，提供可在本機重現的 webhook 署名驗證實驗與唯讀 API 範例。[完整英文說明](README.md)
 
 ## OmniWallet 是什麼？

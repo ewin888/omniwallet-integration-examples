@@ -1,5 +1,9 @@
 # OmniWallet integration examples
 
+[![One receiving address across supported EVM networks. Conceptual illustration.](assets/one-address-multiple-chains.png)](https://omniwallet.ewin888.com/coins/?lang=en&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
+
+[Explore supported coins and networks](https://omniwallet.ewin888.com/coins/?lang=en&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
+
 Accept crypto payments with OmniWallet. Use these official examples to understand signed payment notifications and explore the sandbox API before integrating.
 
 [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
