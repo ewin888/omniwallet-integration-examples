@@ -11,7 +11,8 @@
   "scripts": {
     "lab": "node examples/ipn-raw-body-lab.mjs",
     "check:collection": "node scripts/check-collection.mjs",
-    "test": "node examples/ipn-raw-body-lab.mjs && node scripts/check-collection.mjs"
+    "test": "node examples/ipn-raw-body-lab.mjs && node scripts/check-collection.mjs && node scripts/check-browser-lab.mjs",
+    "check:browser-lab": "node scripts/check-browser-lab.mjs"
   },
   "repository": {
     "type": "git",
