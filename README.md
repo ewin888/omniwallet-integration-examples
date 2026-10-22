@@ -2,7 +2,7 @@
 
 **[Try the browser webhook lab →](https://ewin888.github.io/omniwallet-integration-examples/)**
 
-No installation or account. Four synthetic examples show how raw JSON bytes affect HMAC-SHA512 signatures. The interactive lab is in English.
+No installation or account. Four synthetic examples show how raw JSON bytes affect HMAC-SHA512 signatures. The interactive lab is available in English and Japanese.
 
 [![One receiving address across supported EVM networks. Conceptual illustration.](assets/one-address-multiple-chains.png)](https://omniwallet.ewin888.com/coins/?lang=en&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
 

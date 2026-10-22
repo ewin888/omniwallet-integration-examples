@@ -2,7 +2,7 @@
 
 **[直接試玩 webhook 驗簽實驗 →](https://ewin888.github.io/omniwallet-integration-examples/)**
 
-免安裝、免帳號，以四個模擬案例看懂 JSON 原始位元組如何影響簽章。互動頁目前為英文。
+免安裝、免帳號，以四個模擬案例看懂 JSON 原始位元組如何影響簽章。互動頁提供英文與日文。
 
 [![一個地址同時支援多條 EVM 鏈；僅限支援網路與幣種，圖片為概念示意。](assets/one-address-multiple-chains.png)](https://omniwallet.ewin888.com/zh-tw/coins/?lang=zh-tw&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
 

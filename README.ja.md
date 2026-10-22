@@ -1,8 +1,8 @@
 # OmniWallet 連携サンプル
 
-**[ブラウザーで webhook 署名を試す →](https://ewin888.github.io/omniwallet-integration-examples/)**
+**[ブラウザーで webhook 署名を試す →](https://ewin888.github.io/omniwallet-integration-examples/ja/)**
 
-インストール・アカウント不要。4つのサンプルで JSON のバイト列と署名の関係を確認できます。実験ページは英語です。
+インストール・アカウント不要。4つのサンプルで JSON のバイト列と署名の関係を確認できます。操作と解説は日本語です。
 
 [![対応する複数の EVM ネットワークで同じ受取アドレスを使用。概念図です。](assets/one-address-multiple-chains.png)](https://omniwallet.ewin888.com/ja/coins/?lang=ja&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
 

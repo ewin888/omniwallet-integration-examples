@@ -2,7 +2,7 @@
 
 **[브라우저에서 webhook 서명 실험하기 →](https://ewin888.github.io/omniwallet-integration-examples/)**
 
-설치나 계정 없이 네 가지 모의 사례로 JSON 원시 바이트와 서명의 관계를 확인하세요. 실험 페이지는 영어입니다.
+설치나 계정 없이 네 가지 모의 사례로 JSON 원시 바이트와 서명의 관계를 확인하세요. 실험 페이지는 영어와 일본어로 제공됩니다.
 
 [![지원되는 여러 EVM 네트워크에서 하나의 수신 주소를 사용합니다. 개념 이미지입니다.](assets/one-address-multiple-chains.png)](https://omniwallet.ewin888.com/ko/coins/?lang=ko&utm_source=github&utm_medium=organic_content&utm_campaign=multichain_image_github_20261021#lookup)
 
