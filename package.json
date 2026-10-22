@@ -1,6 +1,6 @@
 {
   "name": "omniwallet-integration-examples",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "description": "Runnable offline payment-webhook checks and read-only OmniWallet sandbox requests.",
